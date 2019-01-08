@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/forth"
+    android:id="@+id/navigation_drawer">
+
+    <fragment
+        android:id="@+id/forth"
+        android:name="com.navigationissue.drawer.ForthFragment"
+        android:label="@string/title_forth"/>
+
+    <fragment
+        android:id="@+id/fifth"
+        android:name="com.navigationissue.drawer.FifthFragment"
+        android:label="@string/title_fifth">
+
+        <action
+            android:id="@+id/action_fifth_to_sixth"
+            app:destination="@+id/sixth"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/sixth"
+        android:name="com.navigationissue.drawer.SixthFragment"
+        android:label="@string/title_sixth"/>
+
+</navigation>

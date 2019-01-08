@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Navigation Issue</string>
+
+    <string name="title_first">First</string>
+    <string name="title_second">Second</string>
+    <string name="title_third">Third</string>
+
+    <string name="title_forth">Forth</string>
+    <string name="title_fifth">Fifth</string>
+    <string name="title_sixth">Sixth</string>
+</resources>
