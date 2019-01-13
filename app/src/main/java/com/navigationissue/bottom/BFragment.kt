@@ -1,4 +1,4 @@
-package com.navigationissue.drawer
+package com.navigationissue.bottom
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.navigationissue.R
 import kotlinx.android.synthetic.main.fragment_main.*
 
-class ForthFragment : Fragment() {
+class BFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_main, container, false)
@@ -16,7 +16,7 @@ class ForthFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        tvTitle.setText(R.string.title_forth)
+        tvTitle.setText(R.string.title_second)
     }
 }
  

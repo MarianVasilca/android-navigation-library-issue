@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Navigation Issue</string>
+    <string name="app_name">Nested NavHostFragments</string>
 
-    <string name="title_first">First</string>
-    <string name="title_second">Second</string>
-    <string name="title_third">Third</string>
+    <string name="title_first">A Fragment</string>
+    <string name="title_second">B Fragment</string>
+    <string name="title_third">C Fragment</string>
 
-    <string name="title_forth">Forth</string>
-    <string name="title_fifth">Fifth</string>
-    <string name="title_sixth">Sixth</string>
+    <string name="title_forth">D Fragment</string>
+    <string name="title_fifth">E Fragment</string>
+    <string name="title_sixth">F Fragment</string>
 </resources>

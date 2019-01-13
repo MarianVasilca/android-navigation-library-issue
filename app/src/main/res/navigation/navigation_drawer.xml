@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/forth"
-        android:name="com.navigationissue.drawer.ForthFragment"
+        android:name="com.navigationissue.drawer.DFragment"
         android:label="@string/title_forth"/>
 
     <fragment
         android:id="@+id/fifth"
-        android:name="com.navigationissue.drawer.FifthFragment"
+        android:name="com.navigationissue.drawer.EFragment"
         android:label="@string/title_fifth">
 
         <action
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/sixth"
-        android:name="com.navigationissue.drawer.SixthFragment"
+        android:name="com.navigationissue.drawer.FFragment"
         android:label="@string/title_sixth"/>
 
 </navigation>

@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/first"
-        android:name="com.navigationissue.bottom.FirstFragment"
+        android:name="com.navigationissue.bottom.AFragment"
         android:label="@string/title_first"/>
 
     <fragment
         android:id="@+id/second"
-        android:name="com.navigationissue.bottom.SecondFragment"
+        android:name="com.navigationissue.bottom.BFragment"
         android:label="@string/title_second"/>
 
     <fragment
         android:id="@+id/third"
-        android:name="com.navigationissue.bottom.ThirdFragment"
+        android:name="com.navigationissue.bottom.CFragment"
         android:label="@string/title_third"/>
 
 </navigation>
